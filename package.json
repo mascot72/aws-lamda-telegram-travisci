@@ -2,18 +2,23 @@
   "name": "aws-lamda-telegram-travisci",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "build",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node src/build.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mascot72/aws-lamda-telegram-travisci.git"
   },
-  "author": "",
+  "author": "isaac",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mascot72/aws-lamda-telegram-travisci/issues"
   },
-  "homepage": "https://github.com/mascot72/aws-lamda-telegram-travisci#readme"
+  "homepage": "https://github.com/mascot72/aws-lamda-telegram-travisci#readme",
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "https": "^1.0.0"
+  }
 }
