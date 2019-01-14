@@ -1,20 +1,24 @@
 {
   "recruits": [
     {
-      "team": "[배민아키텍처팀] 서버 개발자",
+      "team": "[아키텍처팀] 서버 개발자",
       "link": "http://bit.ly/2HL4FQs"
     },
     {
-      "team": "[배민플랫폼개발실] 서버 개발자",
+      "team": "[플랫폼개발실] 서버 개발자",
       "link": "http://bit.ly/2HL4FQs"
     },
     {
-      "team": "[민서비스개발실] 서버 개발자",
+      "team": "[서비스개발실] 서버 개발자",
       "link": "http://bit.ly/2HL4FQs"
     },
     {
       "team": "웹 프론트엔드 개발자",
       "link": "http://bit.ly/2HL4FQs"
+    },
+    {
+      "team": "naver",
+      "link": "http://www.naver.com"
     }
   ]
 }
