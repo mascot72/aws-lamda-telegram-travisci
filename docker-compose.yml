@@ -1,0 +1,24 @@
+version: '1.0'
+
+services:
+  db:
+    image: postgres:9.6.1
+    volumes:
+      - ./docker/data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=sampledb
+      - POSTGRES_USER=sampleuser
+      - POSTGRES_PASSWORD=samplesecret
+      - POSTGRES_INITDB_ARGS=--encoding=UTF-8
+    healthcheck:
+      test: "pg_isready -h localhost -p 5432 -q -U postgres"
+      interval: 3s
+      timeout: 1s
+      retries: 10
+      
+
+webserver:
+  image: emd
+  ports:
+    - "6543:3456"
+
